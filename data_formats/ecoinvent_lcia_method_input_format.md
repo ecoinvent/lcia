@@ -1,5 +1,5 @@
 # ecoinvent LCIA method input format
-The "input" method files are in the form of CSV data with the following fields. Basically, the file lists all elementary flows and the characterization factors per impact category and/or indicator in columns. Preferably, method developers would provide methods in this format to ecoinvent (including any other fields). Please send your file to sonderegger@ecoinvent.org.
+The "input" method files are in the form of CSV data with the following fields. Basically, the file lists all elementary flows and the characterization factors per impact category and/or indicator in columns. Preferably, method developers would provide methods in this format to ecoinvent (including any other fields). Indicator units need to be reported in a separate file. If already a mapping from the method to ecoinvent exists, ecoinvent UUIDs might be added. Please send your files to sonderegger@ecoinvent.org.
 |Field	                  |Field type                    |Data type	  |Note                                 |
 |-------------------------|------------------------------|-------------|-------------------------------------|
 |elementary_flow_id  	    |recommended                   |string       |method elementary flow ID            |
