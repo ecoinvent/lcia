@@ -22,3 +22,7 @@ The "mapped" method files are in the form of CSV data with the following fields.
 |{category 1}\|{indicator 1}|number     |characterization factors of method impact category and indicator |
 |...                      |             |        | 
 |{category n}\|{indicator n}|           |        | 
+
+
+## Further explanations for EF methods
+"flow status" and "compartment status": The column “flow_status” contains “mapped” if a match has been established between ecoinvent and the method for the flow, otherwise it says “ecoinvent orphan”. Sometimes a matching flow, but no matching compartment/subcompartment can be found. Therefore, some entries have a mapped flow, but not a mapped compartment/sub-compartment. A special case are the mappings to EF, which are based on the [GLAD mapping of elementary flow lists](https://github.com/UNEP-Economy-Division/GLAD-ElementaryFlowResources/). In the EF system, there are some elementary flows, which do not have a characterization factor. Since only those with a characterization factor are fully mapped, there are mapped flows including compartment but the compartment_status is empty. From an LCIA perspective, these mappings can be ignored.
