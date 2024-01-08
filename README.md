@@ -17,6 +17,10 @@ Automated mapping tries to map several fields and for v3.10 the types of success
 Manual mappings are indicated by the status "mapped: overwrite".
 
 NOTE: Some methods were available with ecoinvent elementary flow UUIDs and names and therefore needed no mapping. These are therefore not part of this repository.
+
+## Note for EF methods (including EN 15804)
+The mappings to EF methods consider the [GLAD mapping](https://github.com/UNEP-Economy-Division/GLAD-ElementaryFlowResources/blob/master/Mapping/Output/Mapped_files/ecoinventEFv3.7-ILCD-EFv3.0.xlsx). While v3.9.1 implementations started from there, v3.10 implementations start not from the full list of elementary flows, but only from the list of characterized flows (the “lciamethods_CF” sheet of the [official Excel files](https://eplca.jrc.ec.europa.eu/permalink/EF3_1/EF-LCIAMethod_CF(EF-v3.1).xlsx)). This ensures that what is mapped also is characterized, but it also means that mappings can be different than in the GLAD mapping as the best matching flow is not available anymore.
+
 ## Metadata JSON file
 The ```metadata.json``` file follows the [tabular-data-package](https://dataprotocols.org/tabular-data-package/) standard.
 ## Author and contact
