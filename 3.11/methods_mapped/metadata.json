@@ -1,8 +1,8 @@
 {
   "profile": "tabular-data-package",
-  "name": "ecoinvent-lcia-methods-mapped-v3.10",
-  "description": "Mappings of ecoinvent elementary exchanges to LCIA methods' elementary exchanges and corresponding characterization factors (CFs) for ecoinvent version 3.10. These files show the result of the mapping procedure applied by ecoinvent, which includes some implementation choices documented in the publicly available ecoinvent LCIA implementation report.",
-  "id": "6347b586086b4720973dcee6aa9e8ca0",
+  "name": "ecoinvent-lcia-methods-mapped-v3.11",
+  "description": "Mappings of ecoinvent elementary exchanges to LCIA methods' elementary exchanges and corresponding characterization factors (CFs) for ecoinvent version 3.11. These files show the result of the mapping procedure applied by ecoinvent, which includes some implementation choices documented in the publicly available ecoinvent LCIA implementation report.",
+  "id": "74a39c4c35634e6a915505767b8a46d0",
   "licenses": [
     {
       "name": "CC_BY-NC-3.0",
@@ -12,7 +12,7 @@
   ],
   "resources": [
     {
-      "path": "CML v4.8 2016_mapped_3.10.csv",
+      "path": "CML v4.8 2016_mapped_3.11.csv",
       "profile": "tabular-data-resource",
       "mediatype": "text/csv",
       "separator": "|",
@@ -145,7 +145,7 @@
       }
     },
     {
-      "path": "Crustal Scarcity Indicator 2020_mapped_3.10.csv",
+      "path": "Crustal Scarcity Indicator 2020_mapped_3.11.csv",
       "profile": "tabular-data-resource",
       "mediatype": "text/csv",
       "separator": "|",
@@ -228,7 +228,7 @@
       }
     },
     {
-      "path": "Ecological Scarcity 2021_mapped_3.10.csv",
+      "path": "Ecological Scarcity 2021_mapped_3.11.csv",
       "profile": "tabular-data-resource",
       "mediatype": "text/csv",
       "separator": "|",
@@ -406,185 +406,7 @@
       }
     },
     {
-      "path": "EF v3.0 EN15804_mapped_3.10.csv",
-      "profile": "tabular-data-resource",
-      "mediatype": "text/csv",
-      "separator": "|",
-      "schema": {
-        "fields": [
-          {
-            "name": "elementary_flow_id",
-            "type": "string"
-          },
-          {
-            "name": "elementary_flow_name",
-            "type": "string"
-          },
-          {
-            "name": "cas_number",
-            "type": "string"
-          },
-          {
-            "name": "formula",
-            "type": "string"
-          },
-          {
-            "name": "synonyms",
-            "type": "string"
-          },
-          {
-            "name": "compartment",
-            "type": "string"
-          },
-          {
-            "name": "subcompartment",
-            "type": "string"
-          },
-          {
-            "name": "unit_name",
-            "type": "string"
-          },
-          {
-            "name": "flow_status",
-            "type": "string"
-          },
-          {
-            "name": "flow_used",
-            "type": "string"
-          },
-          {
-            "name": "conversion_factor",
-            "type": "string"
-          },
-          {
-            "name": "method_elementary_flow_id",
-            "type": "string"
-          },
-          {
-            "name": "method_elementary_flow_name",
-            "type": "string"
-          },
-          {
-            "name": "method_compartment",
-            "type": "string"
-          },
-          {
-            "name": "method_subcompartment",
-            "type": "string"
-          },
-          {
-            "name": "method_unit",
-            "type": "string"
-          },
-          {
-            "name": "compartment_status",
-            "type": "string"
-          },
-          {
-            "name": "acidification|accumulated exceedance (AE)",
-            "type": "number",
-            "separated": true
-          },
-          {
-            "name": "climate change|global warming potential (GWP100)",
-            "type": "number",
-            "separated": true
-          },
-          {
-            "name": "climate change: biogenic|global warming potential (GWP100)",
-            "type": "number",
-            "separated": true
-          },
-          {
-            "name": "climate change: fossil|global warming potential (GWP100)",
-            "type": "number",
-            "separated": true
-          },
-          {
-            "name": "climate change: land use and land use change|global warming potential (GWP100)",
-            "type": "number",
-            "separated": true
-          },
-          {
-            "name": "climate change: GHG (EPD PCR)|global warming potential (GWP100)",
-            "type": "number",
-            "separated": true
-          },
-          {
-            "name": "particulate matter formation|impact on human health",
-            "type": "number",
-            "separated": true
-          },
-          {
-            "name": "ecotoxicity: freshwater|comparative toxic unit for ecosystems (CTUe)",
-            "type": "number",
-            "separated": true
-          },
-          {
-            "name": "eutrophication: marine|fraction of nutrients reaching marine end compartment (N)",
-            "type": "number",
-            "separated": true
-          },
-          {
-            "name": "eutrophication: freshwater|fraction of nutrients reaching freshwater end compartment (P)",
-            "type": "number",
-            "separated": true
-          },
-          {
-            "name": "eutrophication: terrestrial|accumulated exceedance (AE)",
-            "type": "number",
-            "separated": true
-          },
-          {
-            "name": "human toxicity: carcinogenic|comparative toxic unit for human (CTUh)",
-            "type": "number",
-            "separated": true
-          },
-          {
-            "name": "human toxicity: non-carcinogenic|comparative toxic unit for human (CTUh)",
-            "type": "number",
-            "separated": true
-          },
-          {
-            "name": "ionising radiation: human health|human exposure efficiency relative to u235",
-            "type": "number",
-            "separated": true
-          },
-          {
-            "name": "land use|soil quality index",
-            "type": "number",
-            "separated": true
-          },
-          {
-            "name": "ozone depletion|ozone depletion potential (ODP)",
-            "type": "number",
-            "separated": true
-          },
-          {
-            "name": "photochemical oxidant formation: human health|tropospheric ozone concentration increase",
-            "type": "number",
-            "separated": true
-          },
-          {
-            "name": "energy resources: non-renewable|abiotic depletion potential (ADP): fossil fuels",
-            "type": "number",
-            "separated": true
-          },
-          {
-            "name": "material resources: metals/minerals|abiotic depletion potential (ADP): elements (ultimate reserves)",
-            "type": "number",
-            "separated": true
-          },
-          {
-            "name": "water use|user deprivation potential (deprivation-weighted water consumption)",
-            "type": "number",
-            "separated": true
-          }
-        ]
-      }
-    },
-    {
-      "path": "EF v3.0_mapped_3.10.csv",
+      "path": "EF v3.0_mapped_3.11.csv",
       "profile": "tabular-data-resource",
       "mediatype": "text/csv",
       "separator": "|",
@@ -802,185 +624,7 @@
       }
     },
     {
-      "path": "EF v3.1 EN15804_mapped_3.10.csv",
-      "profile": "tabular-data-resource",
-      "mediatype": "text/csv",
-      "separator": "|",
-      "schema": {
-        "fields": [
-          {
-            "name": "elementary_flow_id",
-            "type": "string"
-          },
-          {
-            "name": "elementary_flow_name",
-            "type": "string"
-          },
-          {
-            "name": "cas_number",
-            "type": "string"
-          },
-          {
-            "name": "formula",
-            "type": "string"
-          },
-          {
-            "name": "synonyms",
-            "type": "string"
-          },
-          {
-            "name": "compartment",
-            "type": "string"
-          },
-          {
-            "name": "subcompartment",
-            "type": "string"
-          },
-          {
-            "name": "unit_name",
-            "type": "string"
-          },
-          {
-            "name": "flow_status",
-            "type": "string"
-          },
-          {
-            "name": "flow_used",
-            "type": "string"
-          },
-          {
-            "name": "conversion_factor",
-            "type": "string"
-          },
-          {
-            "name": "method_elementary_flow_id",
-            "type": "string"
-          },
-          {
-            "name": "method_elementary_flow_name",
-            "type": "string"
-          },
-          {
-            "name": "method_compartment",
-            "type": "string"
-          },
-          {
-            "name": "method_subcompartment",
-            "type": "string"
-          },
-          {
-            "name": "method_unit",
-            "type": "string"
-          },
-          {
-            "name": "compartment_status",
-            "type": "string"
-          },
-          {
-            "name": "acidification|accumulated exceedance (AE)",
-            "type": "number",
-            "separated": true
-          },
-          {
-            "name": "climate change|global warming potential (GWP100)",
-            "type": "number",
-            "separated": true
-          },
-          {
-            "name": "climate change: biogenic|global warming potential (GWP100)",
-            "type": "number",
-            "separated": true
-          },
-          {
-            "name": "climate change: fossil|global warming potential (GWP100)",
-            "type": "number",
-            "separated": true
-          },
-          {
-            "name": "climate change: land use and land use change|global warming potential (GWP100)",
-            "type": "number",
-            "separated": true
-          },
-          {
-            "name": "climate change: GHG (EPD PCR)|global warming potential (GWP100)",
-            "type": "number",
-            "separated": true
-          },
-          {
-            "name": "particulate matter formation|impact on human health",
-            "type": "number",
-            "separated": true
-          },
-          {
-            "name": "ecotoxicity: freshwater|comparative toxic unit for ecosystems (CTUe)",
-            "type": "number",
-            "separated": true
-          },
-          {
-            "name": "eutrophication: marine|fraction of nutrients reaching marine end compartment (N)",
-            "type": "number",
-            "separated": true
-          },
-          {
-            "name": "eutrophication: freshwater|fraction of nutrients reaching freshwater end compartment (P)",
-            "type": "number",
-            "separated": true
-          },
-          {
-            "name": "eutrophication: terrestrial|accumulated exceedance (AE)",
-            "type": "number",
-            "separated": true
-          },
-          {
-            "name": "human toxicity: carcinogenic|comparative toxic unit for human (CTUh)",
-            "type": "number",
-            "separated": true
-          },
-          {
-            "name": "human toxicity: non-carcinogenic|comparative toxic unit for human (CTUh)",
-            "type": "number",
-            "separated": true
-          },
-          {
-            "name": "ionising radiation: human health|human exposure efficiency relative to u235",
-            "type": "number",
-            "separated": true
-          },
-          {
-            "name": "land use|soil quality index",
-            "type": "number",
-            "separated": true
-          },
-          {
-            "name": "ozone depletion|ozone depletion potential (ODP)",
-            "type": "number",
-            "separated": true
-          },
-          {
-            "name": "photochemical oxidant formation: human health|tropospheric ozone concentration increase",
-            "type": "number",
-            "separated": true
-          },
-          {
-            "name": "energy resources: non-renewable|abiotic depletion potential (ADP): fossil fuels",
-            "type": "number",
-            "separated": true
-          },
-          {
-            "name": "material resources: metals/minerals|abiotic depletion potential (ADP): elements (ultimate reserves)",
-            "type": "number",
-            "separated": true
-          },
-          {
-            "name": "water use|user deprivation potential (deprivation-weighted water consumption)",
-            "type": "number",
-            "separated": true
-          }
-        ]
-      }
-    },
-    {
-      "path": "EF v3.1_mapped_3.10.csv",
+      "path": "EF v3.1_mapped_3.11.csv",
       "profile": "tabular-data-resource",
       "mediatype": "text/csv",
       "separator": "|",
@@ -1183,7 +827,288 @@
       }
     },
     {
-      "path": "EPS 2020d_mapped_3.10.csv",
+      "path": "EN15804+A2 - Additional impact categories and indicators_mapped_3.11.csv",
+      "profile": "tabular-data-resource",
+      "mediatype": "text/csv",
+      "separator": "|",
+      "schema": {
+        "fields": [
+          {
+            "name": "elementary_flow_id",
+            "type": "string"
+          },
+          {
+            "name": "elementary_flow_name",
+            "type": "string"
+          },
+          {
+            "name": "cas_number",
+            "type": "string"
+          },
+          {
+            "name": "formula",
+            "type": "string"
+          },
+          {
+            "name": "synonyms",
+            "type": "string"
+          },
+          {
+            "name": "compartment",
+            "type": "string"
+          },
+          {
+            "name": "subcompartment",
+            "type": "string"
+          },
+          {
+            "name": "unit_name",
+            "type": "string"
+          },
+          {
+            "name": "flow_status",
+            "type": "string"
+          },
+          {
+            "name": "flow_used",
+            "type": "string"
+          },
+          {
+            "name": "conversion_factor",
+            "type": "string"
+          },
+          {
+            "name": "method_elementary_flow_id",
+            "type": "string"
+          },
+          {
+            "name": "method_elementary_flow_name",
+            "type": "string"
+          },
+          {
+            "name": "method_compartment",
+            "type": "string"
+          },
+          {
+            "name": "method_subcompartment",
+            "type": "string"
+          },
+          {
+            "name": "method_unit",
+            "type": "string"
+          },
+          {
+            "name": "compartment_status",
+            "type": "string"
+          },
+          {
+            "name": "particulate matter formation|impact on human health",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "ionising radiation: human health|human exposure efficiency relative to u235",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "ecotoxicity: freshwater (EF v3.0)|comparative toxic unit for ecosystems (CTUe)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "human toxicity: carcinogenic|comparative toxic unit for human (CTUh)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "human toxicity: non-carcinogenic (EF v3.0)|comparative toxic unit for human (CTUh)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "land use|soil quality index",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "ecotoxicity: freshwater (EF v3.1)|comparative toxic unit for ecosystems (CTUe)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "human toxicity: non-carcinogenic (EF v3.1)|comparative toxic unit for human (CTUh)",
+            "type": "number",
+            "separated": true
+          }
+        ]
+      }
+    },
+    {
+      "path": "EN15804+A2 - Core impact categories and indicators_mapped_3.11.csv",
+      "profile": "tabular-data-resource",
+      "mediatype": "text/csv",
+      "separator": "|",
+      "schema": {
+        "fields": [
+          {
+            "name": "elementary_flow_id",
+            "type": "string"
+          },
+          {
+            "name": "elementary_flow_name",
+            "type": "string"
+          },
+          {
+            "name": "cas_number",
+            "type": "string"
+          },
+          {
+            "name": "formula",
+            "type": "string"
+          },
+          {
+            "name": "synonyms",
+            "type": "string"
+          },
+          {
+            "name": "compartment",
+            "type": "string"
+          },
+          {
+            "name": "subcompartment",
+            "type": "string"
+          },
+          {
+            "name": "unit_name",
+            "type": "string"
+          },
+          {
+            "name": "flow_status",
+            "type": "string"
+          },
+          {
+            "name": "flow_used",
+            "type": "string"
+          },
+          {
+            "name": "conversion_factor",
+            "type": "string"
+          },
+          {
+            "name": "method_elementary_flow_id",
+            "type": "string"
+          },
+          {
+            "name": "method_elementary_flow_name",
+            "type": "string"
+          },
+          {
+            "name": "method_compartment",
+            "type": "string"
+          },
+          {
+            "name": "method_subcompartment",
+            "type": "string"
+          },
+          {
+            "name": "method_unit",
+            "type": "string"
+          },
+          {
+            "name": "compartment_status",
+            "type": "string"
+          },
+          {
+            "name": "climate change: total (EF v3.0 - IPCC 2013)|global warming potential (GWP100)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "climate change: fossil (EF v3.0 - IPCC 2013)|global warming potential (GWP100)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "climate change: biogenic (EF v3.0 - IPCC 2013)|global warming potential (GWP100)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "climate change: land use and land use change (EF v3.0 - IPCC 2013)|global warming potential (GWP100)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "ozone depletion|ozone depletion potential (ODP)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "acidification|accumulated exceedance (AE)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "eutrophication: freshwater|fraction of nutrients reaching freshwater end compartment (P)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "eutrophication: marine|fraction of nutrients reaching marine end compartment (N)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "eutrophication: terrestrial|accumulated exceedance (AE)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "photochemical oxidant formation: human health|tropospheric ozone concentration increase",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "material resources: metals/minerals|abiotic depletion potential (ADP): elements (ultimate reserves)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "energy resources: non-renewable|abiotic depletion potential (ADP): fossil fuels",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "water use|user deprivation potential (deprivation-weighted water consumption)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "climate change: total (EF v3.1 - IPCC 2021)|global warming potential (GWP100)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "climate change: fossil (EF v3.1 - IPCC 2021)|global warming potential (GWP100)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "climate change: biogenic (EF v3.1 - IPCC 2021)|global warming potential (GWP100)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "climate change: land use and land use change (EF v3.1 - IPCC 2021)|global warming potential (GWP100)",
+            "type": "number",
+            "separated": true
+          }
+        ]
+      }
+    },
+    {
+      "path": "EPS 2020d_mapped_3.11.csv",
       "profile": "tabular-data-resource",
       "mediatype": "text/csv",
       "separator": "|",
@@ -1296,7 +1221,7 @@
       }
     },
     {
-      "path": "IPCC 2021_mapped_3.10.csv",
+      "path": "IPCC 2021 (incl. biogenic CO2)_mapped_3.11.csv",
       "profile": "tabular-data-resource",
       "mediatype": "text/csv",
       "separator": "|",
@@ -1371,47 +1296,110 @@
             "type": "string"
           },
           {
-            "name": "climate change|global warming potential (GWP20)",
+            "name": "climate change: total (incl. biogenic CO2)|global warming potential (GWP100)",
             "type": "number",
             "separated": true
           },
           {
-            "name": "climate change|global warming potential (GWP100)",
+            "name": "climate change: biogenic (incl. CO2)|global warming potential (GWP100)",
             "type": "number",
             "separated": true
           },
           {
-            "name": "climate change|global warming potential (GWP500)",
+            "name": "climate change: biogenic emissions (incl. CO2)|global warming potential (GWP100)",
             "type": "number",
             "separated": true
           },
           {
-            "name": "climate change|global temperature change potential (GTP50)",
+            "name": "climate change: biogenic removals (incl. CO2)|global warming potential (GWP100)",
             "type": "number",
             "separated": true
           },
           {
-            "name": "climate change|global temperature change potential (GTP100)",
+            "name": "climate change: total (incl. biogenic CO2, incl. SLCFs)|global warming potential (GWP100)",
             "type": "number",
             "separated": true
+          }
+        ]
+      }
+    },
+    {
+      "path": "IPCC 2021_mapped_3.11.csv",
+      "profile": "tabular-data-resource",
+      "mediatype": "text/csv",
+      "separator": "|",
+      "schema": {
+        "fields": [
+          {
+            "name": "elementary_flow_id",
+            "type": "string"
           },
           {
-            "name": "climate change: including SLCFs|global warming potential (GWP20)",
-            "type": "number",
-            "separated": true
+            "name": "elementary_flow_name",
+            "type": "string"
           },
           {
-            "name": "climate change: including SLCFs|global warming potential (GWP100)",
-            "type": "number",
-            "separated": true
+            "name": "cas_number",
+            "type": "string"
           },
           {
-            "name": "climate change: including SLCFs|global temperature change potential (GTP100)",
-            "type": "number",
-            "separated": true
+            "name": "formula",
+            "type": "string"
           },
           {
-            "name": "climate change: fossil|global warming potential (GWP20)",
+            "name": "synonyms",
+            "type": "string"
+          },
+          {
+            "name": "compartment",
+            "type": "string"
+          },
+          {
+            "name": "subcompartment",
+            "type": "string"
+          },
+          {
+            "name": "unit_name",
+            "type": "string"
+          },
+          {
+            "name": "flow_status",
+            "type": "string"
+          },
+          {
+            "name": "flow_used",
+            "type": "string"
+          },
+          {
+            "name": "conversion_factor",
+            "type": "string"
+          },
+          {
+            "name": "method_elementary_flow_id",
+            "type": "string"
+          },
+          {
+            "name": "method_elementary_flow_name",
+            "type": "string"
+          },
+          {
+            "name": "method_compartment",
+            "type": "string"
+          },
+          {
+            "name": "method_subcompartment",
+            "type": "string"
+          },
+          {
+            "name": "method_unit",
+            "type": "string"
+          },
+          {
+            "name": "compartment_status",
+            "type": "string"
+          },
+          {
+            "name": "climate change: total (excl. biogenic CO2)|global warming potential (GWP100)",
             "type": "number",
             "separated": true
           },
@@ -1421,112 +1409,72 @@
             "separated": true
           },
           {
-            "name": "climate change: fossil|global warming potential (GWP500)",
+            "name": "climate change: fossil emissions (excl. aircraft emissions)|global warming potential (GWP100)",
             "type": "number",
             "separated": true
           },
           {
-            "name": "climate change: fossil|global temperature change potential (GTP50)",
+            "name": "climate change: aircraft emissions|global warming potential (GWP100)",
             "type": "number",
             "separated": true
           },
           {
-            "name": "climate change: fossil|global temperature change potential (GTP100)",
+            "name": "climate change: direct land use change|global warming potential (GWP100)",
             "type": "number",
             "separated": true
           },
           {
-            "name": "climate change: fossil, including SLCFs|global warming potential (GWP20)",
+            "name": "climate change: emissions from direct land use change|global warming potential (GWP100)",
             "type": "number",
             "separated": true
           },
           {
-            "name": "climate change: fossil, including SLCFs|global warming potential (GWP100)",
+            "name": "climate change: removals from direct land use change|global warming potential (GWP100)",
             "type": "number",
             "separated": true
           },
           {
-            "name": "climate change: fossil, including SLCFs|global temperature change potential (GTP100)",
+            "name": "climate change: biogenic (excl. CO2)|global warming potential (GWP100)",
             "type": "number",
             "separated": true
           },
           {
-            "name": "climate change: biogenic|global warming potential (GWP20)",
+            "name": "climate change: total (excl. biogenic CO2, incl. SLCFs)|global warming potential (GWP100)",
             "type": "number",
             "separated": true
           },
           {
-            "name": "climate change: biogenic|global warming potential (GWP100)",
+            "name": "climate change: fossil (excl. biogenic CO2, incl. SLCFs)|global warming potential (GWP100)",
             "type": "number",
             "separated": true
           },
           {
-            "name": "climate change: biogenic|global warming potential (GWP500)",
+            "name": "climate change: direct land use change (incl. SLCFs)|global warming potential (GWP100)",
             "type": "number",
             "separated": true
           },
           {
-            "name": "climate change: biogenic|global temperature change potential (GTP50)",
+            "name": "climate change: biogenic (excl. CO2, incl. SLCFs)|global warming potential (GWP100)",
             "type": "number",
             "separated": true
           },
           {
-            "name": "climate change: biogenic|global temperature change potential (GTP100)",
+            "name": "climate change: total (excl. biogenic CO2)|global warming potential (GWP20)",
             "type": "number",
             "separated": true
           },
           {
-            "name": "climate change: biogenic, including SLCFs|global warming potential (GWP20)",
+            "name": "climate change: total (excl. biogenic CO2)|global warming potential (GWP500)",
             "type": "number",
             "separated": true
           },
           {
-            "name": "climate change: biogenic, including SLCFs|global warming potential (GWP100)",
+            "name": "climate change: total (excl. biogenic CO2)|global temperature change potential (GTP50)",
             "type": "number",
             "separated": true
           },
           {
-            "name": "climate change: biogenic, including SLCFs|global temperature change potential (GTP100)",
-            "type": "number",
-            "separated": true
-          },
-          {
-            "name": "climate change: land use|global warming potential (GWP20)",
-            "type": "number",
-            "separated": true
-          },
-          {
-            "name": "climate change: land use|global warming potential (GWP100)",
-            "type": "number",
-            "separated": true
-          },
-          {
-            "name": "climate change: land use|global warming potential (GWP500)",
-            "type": "number",
-            "separated": true
-          },
-          {
-            "name": "climate change: land use|global temperature change potential (GTP50)",
-            "type": "number",
-            "separated": true
-          },
-          {
-            "name": "climate change: land use|global temperature change potential (GTP100)",
-            "type": "number",
-            "separated": true
-          },
-          {
-            "name": "climate change: land use, including SLCFs|global warming potential (GWP20)",
-            "type": "number",
-            "separated": true
-          },
-          {
-            "name": "climate change: land use, including SLCFs|global warming potential (GWP100)",
-            "type": "number",
-            "separated": true
-          },
-          {
-            "name": "climate change: land use, including SLCFs|global temperature change potential (GTP100)",
+            "name": "climate change: total (excl. biogenic CO2)|global temperature change potential (GTP100)",
             "type": "number",
             "separated": true
           }
@@ -1534,7 +1482,7 @@
       }
     },
     {
-      "path": "ReCiPe 2016 v1.03, endpoint (E)_mapped_3.10.csv",
+      "path": "ReCiPe 2016 v1.03, endpoint (E)_mapped_3.11.csv",
       "profile": "tabular-data-resource",
       "mediatype": "text/csv",
       "separator": "|",
@@ -1737,7 +1685,7 @@
       }
     },
     {
-      "path": "ReCiPe 2016 v1.03, endpoint (H)_mapped_3.10.csv",
+      "path": "ReCiPe 2016 v1.03, endpoint (H)_mapped_3.11.csv",
       "profile": "tabular-data-resource",
       "mediatype": "text/csv",
       "separator": "|",
@@ -1940,7 +1888,7 @@
       }
     },
     {
-      "path": "ReCiPe 2016 v1.03, endpoint (I)_mapped_3.10.csv",
+      "path": "ReCiPe 2016 v1.03, endpoint (I)_mapped_3.11.csv",
       "profile": "tabular-data-resource",
       "mediatype": "text/csv",
       "separator": "|",
@@ -2143,7 +2091,7 @@
       }
     },
     {
-      "path": "ReCiPe 2016 v1.03, midpoint (E)_mapped_3.10.csv",
+      "path": "ReCiPe 2016 v1.03, midpoint (E)_mapped_3.11.csv",
       "profile": "tabular-data-resource",
       "mediatype": "text/csv",
       "separator": "|",
@@ -2311,7 +2259,7 @@
       }
     },
     {
-      "path": "ReCiPe 2016 v1.03, midpoint (H)_mapped_3.10.csv",
+      "path": "ReCiPe 2016 v1.03, midpoint (H)_mapped_3.11.csv",
       "profile": "tabular-data-resource",
       "mediatype": "text/csv",
       "separator": "|",
@@ -2479,7 +2427,7 @@
       }
     },
     {
-      "path": "ReCiPe 2016 v1.03, midpoint (I)_mapped_3.10.csv",
+      "path": "ReCiPe 2016 v1.03, midpoint (I)_mapped_3.11.csv",
       "profile": "tabular-data-resource",
       "mediatype": "text/csv",
       "separator": "|",
@@ -2647,7 +2595,7 @@
       }
     },
     {
-      "path": "TRACI v2.1_mapped_3.10.csv",
+      "path": "TRACI v2.1_mapped_3.11.csv",
       "profile": "tabular-data-resource",
       "mediatype": "text/csv",
       "separator": "|",
@@ -2770,7 +2718,7 @@
       }
     },
     {
-      "path": "USEtox v2.13, endpoint_mapped_3.10.csv",
+      "path": "USEtox v2.13, endpoint_mapped_3.11.csv",
       "profile": "tabular-data-resource",
       "mediatype": "text/csv",
       "separator": "|",
@@ -2863,7 +2811,7 @@
       }
     },
     {
-      "path": "USEtox v2.13, midpoint_mapped_3.10.csv",
+      "path": "USEtox v2.13, midpoint_mapped_3.11.csv",
       "profile": "tabular-data-resource",
       "mediatype": "text/csv",
       "separator": "|",
@@ -2956,5 +2904,5 @@
       }
     }
   ],
-  "created": "2024-11-18T18:18:43.188887Z"
+  "created": "2024-11-18T18:35:27.267169Z"
 }
