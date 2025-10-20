@@ -1,0 +1,2908 @@
+{
+  "profile": "tabular-data-package",
+  "name": "ecoinvent-lcia-methods-mapped-v3.12",
+  "description": "Mappings of ecoinvent elementary exchanges to LCIA methods' elementary exchanges and corresponding characterization factors (CFs) for ecoinvent version 3.12. These files show the result of the mapping procedure applied by ecoinvent, which includes some implementation choices documented in the publicly available ecoinvent LCIA implementation report.",
+  "id": "b5e40e3abe5c4767a9e946dbbc304e1f",
+  "licenses": [
+    {
+      "name": "CC_BY-NC-3.0",
+      "path": "https://creativecommons.org/licenses/by-nc/3.0/",
+      "title": "Creative Commons Attribution-NonCommercial 3.0 Unported"
+    }
+  ],
+  "resources": [
+    {
+      "path": "CML v4.8 2016_mapped_3.12.csv",
+      "profile": "tabular-data-resource",
+      "mediatype": "text/csv",
+      "separator": "|",
+      "schema": {
+        "fields": [
+          {
+            "name": "elementary_flow_id",
+            "type": "string"
+          },
+          {
+            "name": "elementary_flow_name",
+            "type": "string"
+          },
+          {
+            "name": "cas_number",
+            "type": "string"
+          },
+          {
+            "name": "formula",
+            "type": "string"
+          },
+          {
+            "name": "synonyms",
+            "type": "string"
+          },
+          {
+            "name": "compartment",
+            "type": "string"
+          },
+          {
+            "name": "subcompartment",
+            "type": "string"
+          },
+          {
+            "name": "unit_name",
+            "type": "string"
+          },
+          {
+            "name": "flow_status",
+            "type": "string"
+          },
+          {
+            "name": "flow_used",
+            "type": "string"
+          },
+          {
+            "name": "conversion_factor",
+            "type": "string"
+          },
+          {
+            "name": "method_elementary_flow_id",
+            "type": "string"
+          },
+          {
+            "name": "method_elementary_flow_name",
+            "type": "string"
+          },
+          {
+            "name": "method_compartment",
+            "type": "string"
+          },
+          {
+            "name": "method_subcompartment",
+            "type": "string"
+          },
+          {
+            "name": "method_unit",
+            "type": "string"
+          },
+          {
+            "name": "compartment_status",
+            "type": "string"
+          },
+          {
+            "name": "material resources: metals/minerals|abiotic depletion potential (ADP): elements (ultimate reserves)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "energy resources: non-renewable|abiotic depletion potential (ADP): fossil fuels",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "climate change|global warming potential (GWP100)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "ozone depletion|ozone layer depletion (ODP steady state)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "human toxicity|human toxicity (HTP inf)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "ecotoxicity: freshwater|freshwater aquatic ecotoxicity (FAETP inf)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "ecotoxicity: marine|marine aquatic ecotoxicity (MAETP inf)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "ecotoxicity: terrestrial|terrestrial ecotoxicity (TETP inf)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "photochemical oxidant formation|photochemical oxidation (high NOx)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "acidification|acidification (incl. fate, average Europe total, A&B)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "eutrophication|eutrophication (fate not incl.)",
+            "type": "number",
+            "separated": true
+          }
+        ]
+      }
+    },
+    {
+      "path": "Crustal Scarcity Indicator 2020_mapped_3.12.csv",
+      "profile": "tabular-data-resource",
+      "mediatype": "text/csv",
+      "separator": "|",
+      "schema": {
+        "fields": [
+          {
+            "name": "elementary_flow_id",
+            "type": "string"
+          },
+          {
+            "name": "elementary_flow_name",
+            "type": "string"
+          },
+          {
+            "name": "cas_number",
+            "type": "string"
+          },
+          {
+            "name": "formula",
+            "type": "string"
+          },
+          {
+            "name": "synonyms",
+            "type": "string"
+          },
+          {
+            "name": "compartment",
+            "type": "string"
+          },
+          {
+            "name": "subcompartment",
+            "type": "string"
+          },
+          {
+            "name": "unit_name",
+            "type": "string"
+          },
+          {
+            "name": "flow_status",
+            "type": "string"
+          },
+          {
+            "name": "flow_used",
+            "type": "string"
+          },
+          {
+            "name": "conversion_factor",
+            "type": "string"
+          },
+          {
+            "name": "method_elementary_flow_id",
+            "type": "string"
+          },
+          {
+            "name": "method_elementary_flow_name",
+            "type": "string"
+          },
+          {
+            "name": "method_compartment",
+            "type": "string"
+          },
+          {
+            "name": "method_subcompartment",
+            "type": "string"
+          },
+          {
+            "name": "method_unit",
+            "type": "string"
+          },
+          {
+            "name": "compartment_status",
+            "type": "string"
+          },
+          {
+            "name": "material resources: metals/minerals|crustal scarcity potential (CSP)",
+            "type": "number",
+            "separated": true
+          }
+        ]
+      }
+    },
+    {
+      "path": "Ecological Scarcity 2021_mapped_3.12.csv",
+      "profile": "tabular-data-resource",
+      "mediatype": "text/csv",
+      "separator": "|",
+      "schema": {
+        "fields": [
+          {
+            "name": "elementary_flow_id",
+            "type": "string"
+          },
+          {
+            "name": "elementary_flow_name",
+            "type": "string"
+          },
+          {
+            "name": "cas_number",
+            "type": "string"
+          },
+          {
+            "name": "formula",
+            "type": "string"
+          },
+          {
+            "name": "synonyms",
+            "type": "string"
+          },
+          {
+            "name": "compartment",
+            "type": "string"
+          },
+          {
+            "name": "subcompartment",
+            "type": "string"
+          },
+          {
+            "name": "unit_name",
+            "type": "string"
+          },
+          {
+            "name": "flow_status",
+            "type": "string"
+          },
+          {
+            "name": "flow_used",
+            "type": "string"
+          },
+          {
+            "name": "conversion_factor",
+            "type": "string"
+          },
+          {
+            "name": "method_elementary_flow_id",
+            "type": "string"
+          },
+          {
+            "name": "method_elementary_flow_name",
+            "type": "string"
+          },
+          {
+            "name": "method_compartment",
+            "type": "string"
+          },
+          {
+            "name": "method_subcompartment",
+            "type": "string"
+          },
+          {
+            "name": "method_unit",
+            "type": "string"
+          },
+          {
+            "name": "compartment_status",
+            "type": "string"
+          },
+          {
+            "name": "total|UBP",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "water use|water resources, evaporated",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "energy resources|energy resources",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "mineral resources|mineral resources",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "land use|land use",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "climate change|global warming potential (GWP100)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "ozone depletion|ozone depletion",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "emissions to air|air pollutants and PM",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "emissions to air|carcinogenic substances into air",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "emissions to air|heavy metals into air",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "emissions to water|water pollutants",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "emissions to water|POP into water",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "emissions to water|heavy metals into water",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "emissions to soil|pesticides into soil",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "emissions to soil|heavy metals into soil",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "emissions to air|radioactive substances into air",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "emissions to water|radioactive substances into water",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "waste disposal|waste, non radioactive",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "waste disposal|radioactive waste to deposit",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "natural resources|biotic resources",
+            "type": "number",
+            "separated": true
+          }
+        ]
+      }
+    },
+    {
+      "path": "EF v3.0_mapped_3.12.csv",
+      "profile": "tabular-data-resource",
+      "mediatype": "text/csv",
+      "separator": "|",
+      "schema": {
+        "fields": [
+          {
+            "name": "elementary_flow_id",
+            "type": "string"
+          },
+          {
+            "name": "elementary_flow_name",
+            "type": "string"
+          },
+          {
+            "name": "cas_number",
+            "type": "string"
+          },
+          {
+            "name": "formula",
+            "type": "string"
+          },
+          {
+            "name": "synonyms",
+            "type": "string"
+          },
+          {
+            "name": "compartment",
+            "type": "string"
+          },
+          {
+            "name": "subcompartment",
+            "type": "string"
+          },
+          {
+            "name": "unit_name",
+            "type": "string"
+          },
+          {
+            "name": "flow_status",
+            "type": "string"
+          },
+          {
+            "name": "flow_used",
+            "type": "string"
+          },
+          {
+            "name": "conversion_factor",
+            "type": "string"
+          },
+          {
+            "name": "method_elementary_flow_id",
+            "type": "string"
+          },
+          {
+            "name": "method_elementary_flow_name",
+            "type": "string"
+          },
+          {
+            "name": "method_compartment",
+            "type": "string"
+          },
+          {
+            "name": "method_subcompartment",
+            "type": "string"
+          },
+          {
+            "name": "method_unit",
+            "type": "string"
+          },
+          {
+            "name": "compartment_status",
+            "type": "string"
+          },
+          {
+            "name": "acidification|accumulated exceedance (AE)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "climate change|global warming potential (GWP100)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "climate change: biogenic|global warming potential (GWP100)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "climate change: fossil|global warming potential (GWP100)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "climate change: land use and land use change|global warming potential (GWP100)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "particulate matter formation|impact on human health",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "ecotoxicity: freshwater|comparative toxic unit for ecosystems (CTUe)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "ecotoxicity: freshwater, inorganics|comparative toxic unit for ecosystems (CTUe)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "ecotoxicity: freshwater, metals|comparative toxic unit for ecosystems (CTUe)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "ecotoxicity: freshwater, organics|comparative toxic unit for ecosystems (CTUe)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "eutrophication: marine|fraction of nutrients reaching marine end compartment (N)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "eutrophication: freshwater|fraction of nutrients reaching freshwater end compartment (P)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "eutrophication: terrestrial|accumulated exceedance (AE)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "human toxicity: carcinogenic|comparative toxic unit for human (CTUh)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "human toxicity: carcinogenic, inorganics|comparative toxic unit for human (CTUh)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "human toxicity: carcinogenic, metals|comparative toxic unit for human (CTUh)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "human toxicity: carcinogenic, organics|comparative toxic unit for human (CTUh)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "human toxicity: non-carcinogenic|comparative toxic unit for human (CTUh)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "human toxicity: non-carcinogenic, inorganics|comparative toxic unit for human (CTUh)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "human toxicity: non-carcinogenic, metals|comparative toxic unit for human (CTUh)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "human toxicity: non-carcinogenic, organics|comparative toxic unit for human (CTUh)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "ionising radiation: human health|human exposure efficiency relative to u235",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "land use|soil quality index",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "ozone depletion|ozone depletion potential (ODP)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "photochemical oxidant formation: human health|tropospheric ozone concentration increase",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "energy resources: non-renewable|abiotic depletion potential (ADP): fossil fuels",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "material resources: metals/minerals|abiotic depletion potential (ADP): elements (ultimate reserves)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "water use|user deprivation potential (deprivation-weighted water consumption)",
+            "type": "number",
+            "separated": true
+          }
+        ]
+      }
+    },
+    {
+      "path": "EF v3.1_mapped_3.12.csv",
+      "profile": "tabular-data-resource",
+      "mediatype": "text/csv",
+      "separator": "|",
+      "schema": {
+        "fields": [
+          {
+            "name": "elementary_flow_id",
+            "type": "string"
+          },
+          {
+            "name": "elementary_flow_name",
+            "type": "string"
+          },
+          {
+            "name": "cas_number",
+            "type": "string"
+          },
+          {
+            "name": "formula",
+            "type": "string"
+          },
+          {
+            "name": "synonyms",
+            "type": "string"
+          },
+          {
+            "name": "compartment",
+            "type": "string"
+          },
+          {
+            "name": "subcompartment",
+            "type": "string"
+          },
+          {
+            "name": "unit_name",
+            "type": "string"
+          },
+          {
+            "name": "flow_status",
+            "type": "string"
+          },
+          {
+            "name": "flow_used",
+            "type": "string"
+          },
+          {
+            "name": "conversion_factor",
+            "type": "string"
+          },
+          {
+            "name": "method_elementary_flow_id",
+            "type": "string"
+          },
+          {
+            "name": "method_elementary_flow_name",
+            "type": "string"
+          },
+          {
+            "name": "method_compartment",
+            "type": "string"
+          },
+          {
+            "name": "method_subcompartment",
+            "type": "string"
+          },
+          {
+            "name": "method_unit",
+            "type": "string"
+          },
+          {
+            "name": "compartment_status",
+            "type": "string"
+          },
+          {
+            "name": "acidification|accumulated exceedance (AE)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "climate change|global warming potential (GWP100)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "climate change: biogenic|global warming potential (GWP100)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "climate change: fossil|global warming potential (GWP100)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "climate change: land use and land use change|global warming potential (GWP100)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "particulate matter formation|impact on human health",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "ecotoxicity: freshwater|comparative toxic unit for ecosystems (CTUe)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "ecotoxicity: freshwater, inorganics|comparative toxic unit for ecosystems (CTUe)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "ecotoxicity: freshwater, organics|comparative toxic unit for ecosystems (CTUe)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "eutrophication: marine|fraction of nutrients reaching marine end compartment (N)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "eutrophication: freshwater|fraction of nutrients reaching freshwater end compartment (P)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "eutrophication: terrestrial|accumulated exceedance (AE)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "human toxicity: carcinogenic|comparative toxic unit for human (CTUh)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "human toxicity: carcinogenic, inorganics|comparative toxic unit for human (CTUh)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "human toxicity: carcinogenic, organics|comparative toxic unit for human (CTUh)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "human toxicity: non-carcinogenic|comparative toxic unit for human (CTUh)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "human toxicity: non-carcinogenic, inorganics|comparative toxic unit for human (CTUh)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "human toxicity: non-carcinogenic, organics|comparative toxic unit for human (CTUh)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "ionising radiation: human health|human exposure efficiency relative to u235",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "land use|soil quality index",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "ozone depletion|ozone depletion potential (ODP)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "photochemical oxidant formation: human health|tropospheric ozone concentration increase",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "energy resources: non-renewable|abiotic depletion potential (ADP): fossil fuels",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "material resources: metals/minerals|abiotic depletion potential (ADP): elements (ultimate reserves)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "water use|user deprivation potential (deprivation-weighted water consumption)",
+            "type": "number",
+            "separated": true
+          }
+        ]
+      }
+    },
+    {
+      "path": "EN15804+A2 - Additional impact categories and indicators_mapped_3.12.csv",
+      "profile": "tabular-data-resource",
+      "mediatype": "text/csv",
+      "separator": "|",
+      "schema": {
+        "fields": [
+          {
+            "name": "elementary_flow_id",
+            "type": "string"
+          },
+          {
+            "name": "elementary_flow_name",
+            "type": "string"
+          },
+          {
+            "name": "cas_number",
+            "type": "string"
+          },
+          {
+            "name": "formula",
+            "type": "string"
+          },
+          {
+            "name": "synonyms",
+            "type": "string"
+          },
+          {
+            "name": "compartment",
+            "type": "string"
+          },
+          {
+            "name": "subcompartment",
+            "type": "string"
+          },
+          {
+            "name": "unit_name",
+            "type": "string"
+          },
+          {
+            "name": "flow_status",
+            "type": "string"
+          },
+          {
+            "name": "flow_used",
+            "type": "string"
+          },
+          {
+            "name": "conversion_factor",
+            "type": "string"
+          },
+          {
+            "name": "method_elementary_flow_id",
+            "type": "string"
+          },
+          {
+            "name": "method_elementary_flow_name",
+            "type": "string"
+          },
+          {
+            "name": "method_compartment",
+            "type": "string"
+          },
+          {
+            "name": "method_subcompartment",
+            "type": "string"
+          },
+          {
+            "name": "method_unit",
+            "type": "string"
+          },
+          {
+            "name": "compartment_status",
+            "type": "string"
+          },
+          {
+            "name": "particulate matter formation|impact on human health",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "ionising radiation: human health|human exposure efficiency relative to u235",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "ecotoxicity: freshwater (EF v3.0)|comparative toxic unit for ecosystems (CTUe)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "human toxicity: carcinogenic|comparative toxic unit for human (CTUh)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "human toxicity: non-carcinogenic (EF v3.0)|comparative toxic unit for human (CTUh)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "land use|soil quality index",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "ecotoxicity: freshwater (EF v3.1)|comparative toxic unit for ecosystems (CTUe)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "human toxicity: non-carcinogenic (EF v3.1)|comparative toxic unit for human (CTUh)",
+            "type": "number",
+            "separated": true
+          }
+        ]
+      }
+    },
+    {
+      "path": "EN15804+A2 - Core impact categories and indicators_mapped_3.12.csv",
+      "profile": "tabular-data-resource",
+      "mediatype": "text/csv",
+      "separator": "|",
+      "schema": {
+        "fields": [
+          {
+            "name": "elementary_flow_id",
+            "type": "string"
+          },
+          {
+            "name": "elementary_flow_name",
+            "type": "string"
+          },
+          {
+            "name": "cas_number",
+            "type": "string"
+          },
+          {
+            "name": "formula",
+            "type": "string"
+          },
+          {
+            "name": "synonyms",
+            "type": "string"
+          },
+          {
+            "name": "compartment",
+            "type": "string"
+          },
+          {
+            "name": "subcompartment",
+            "type": "string"
+          },
+          {
+            "name": "unit_name",
+            "type": "string"
+          },
+          {
+            "name": "flow_status",
+            "type": "string"
+          },
+          {
+            "name": "flow_used",
+            "type": "string"
+          },
+          {
+            "name": "conversion_factor",
+            "type": "string"
+          },
+          {
+            "name": "method_elementary_flow_id",
+            "type": "string"
+          },
+          {
+            "name": "method_elementary_flow_name",
+            "type": "string"
+          },
+          {
+            "name": "method_compartment",
+            "type": "string"
+          },
+          {
+            "name": "method_subcompartment",
+            "type": "string"
+          },
+          {
+            "name": "method_unit",
+            "type": "string"
+          },
+          {
+            "name": "compartment_status",
+            "type": "string"
+          },
+          {
+            "name": "climate change: total (EF v3.0 - IPCC 2013)|global warming potential (GWP100)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "climate change: fossil (EF v3.0 - IPCC 2013)|global warming potential (GWP100)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "climate change: biogenic (EF v3.0 - IPCC 2013)|global warming potential (GWP100)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "climate change: land use and land use change (EF v3.0 - IPCC 2013)|global warming potential (GWP100)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "ozone depletion|ozone depletion potential (ODP)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "acidification|accumulated exceedance (AE)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "eutrophication: freshwater|fraction of nutrients reaching freshwater end compartment (P)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "eutrophication: marine|fraction of nutrients reaching marine end compartment (N)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "eutrophication: terrestrial|accumulated exceedance (AE)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "photochemical oxidant formation: human health|tropospheric ozone concentration increase",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "material resources: metals/minerals|abiotic depletion potential (ADP): elements (ultimate reserves)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "energy resources: non-renewable|abiotic depletion potential (ADP): fossil fuels",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "water use|user deprivation potential (deprivation-weighted water consumption)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "climate change: total (EF v3.1 - IPCC 2021)|global warming potential (GWP100)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "climate change: fossil (EF v3.1 - IPCC 2021)|global warming potential (GWP100)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "climate change: biogenic (EF v3.1 - IPCC 2021)|global warming potential (GWP100)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "climate change: land use and land use change (EF v3.1 - IPCC 2021)|global warming potential (GWP100)",
+            "type": "number",
+            "separated": true
+          }
+        ]
+      }
+    },
+    {
+      "path": "EPS 2020d_mapped_3.12.csv",
+      "profile": "tabular-data-resource",
+      "mediatype": "text/csv",
+      "separator": "|",
+      "schema": {
+        "fields": [
+          {
+            "name": "elementary_flow_id",
+            "type": "string"
+          },
+          {
+            "name": "elementary_flow_name",
+            "type": "string"
+          },
+          {
+            "name": "cas_number",
+            "type": "string"
+          },
+          {
+            "name": "formula",
+            "type": "string"
+          },
+          {
+            "name": "synonyms",
+            "type": "string"
+          },
+          {
+            "name": "compartment",
+            "type": "string"
+          },
+          {
+            "name": "subcompartment",
+            "type": "string"
+          },
+          {
+            "name": "unit_name",
+            "type": "string"
+          },
+          {
+            "name": "flow_status",
+            "type": "string"
+          },
+          {
+            "name": "flow_used",
+            "type": "string"
+          },
+          {
+            "name": "conversion_factor",
+            "type": "string"
+          },
+          {
+            "name": "method_elementary_flow_id",
+            "type": "string"
+          },
+          {
+            "name": "method_elementary_flow_name",
+            "type": "string"
+          },
+          {
+            "name": "method_compartment",
+            "type": "string"
+          },
+          {
+            "name": "method_subcompartment",
+            "type": "string"
+          },
+          {
+            "name": "method_unit",
+            "type": "string"
+          },
+          {
+            "name": "compartment_status",
+            "type": "string"
+          },
+          {
+            "name": "total|monetary impact value",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "emissions to air|monetary impact value",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "emissions to water|monetary impact value",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "emissions to soil|monetary impact value",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "land use|monetary impact value",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "energy resources: non-renewable, fossil|monetary impact value",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "material resources: metals|monetary impact value",
+            "type": "number",
+            "separated": true
+          }
+        ]
+      }
+    },
+    {
+      "path": "IPCC 2021 (incl. biogenic CO2)_mapped_3.12.csv",
+      "profile": "tabular-data-resource",
+      "mediatype": "text/csv",
+      "separator": "|",
+      "schema": {
+        "fields": [
+          {
+            "name": "elementary_flow_id",
+            "type": "string"
+          },
+          {
+            "name": "elementary_flow_name",
+            "type": "string"
+          },
+          {
+            "name": "cas_number",
+            "type": "string"
+          },
+          {
+            "name": "formula",
+            "type": "string"
+          },
+          {
+            "name": "synonyms",
+            "type": "string"
+          },
+          {
+            "name": "compartment",
+            "type": "string"
+          },
+          {
+            "name": "subcompartment",
+            "type": "string"
+          },
+          {
+            "name": "unit_name",
+            "type": "string"
+          },
+          {
+            "name": "flow_status",
+            "type": "string"
+          },
+          {
+            "name": "flow_used",
+            "type": "string"
+          },
+          {
+            "name": "conversion_factor",
+            "type": "string"
+          },
+          {
+            "name": "method_elementary_flow_id",
+            "type": "string"
+          },
+          {
+            "name": "method_elementary_flow_name",
+            "type": "string"
+          },
+          {
+            "name": "method_compartment",
+            "type": "string"
+          },
+          {
+            "name": "method_subcompartment",
+            "type": "string"
+          },
+          {
+            "name": "method_unit",
+            "type": "string"
+          },
+          {
+            "name": "compartment_status",
+            "type": "string"
+          },
+          {
+            "name": "climate change: total (incl. biogenic CO2)|global warming potential (GWP100)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "climate change: biogenic (incl. CO2)|global warming potential (GWP100)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "climate change: biogenic emissions (incl. CO2)|global warming potential (GWP100)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "climate change: biogenic removals (incl. CO2)|global warming potential (GWP100)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "climate change: total (incl. biogenic CO2, incl. SLCFs)|global warming potential (GWP100)",
+            "type": "number",
+            "separated": true
+          }
+        ]
+      }
+    },
+    {
+      "path": "IPCC 2021_mapped_3.12.csv",
+      "profile": "tabular-data-resource",
+      "mediatype": "text/csv",
+      "separator": "|",
+      "schema": {
+        "fields": [
+          {
+            "name": "elementary_flow_id",
+            "type": "string"
+          },
+          {
+            "name": "elementary_flow_name",
+            "type": "string"
+          },
+          {
+            "name": "cas_number",
+            "type": "string"
+          },
+          {
+            "name": "formula",
+            "type": "string"
+          },
+          {
+            "name": "synonyms",
+            "type": "string"
+          },
+          {
+            "name": "compartment",
+            "type": "string"
+          },
+          {
+            "name": "subcompartment",
+            "type": "string"
+          },
+          {
+            "name": "unit_name",
+            "type": "string"
+          },
+          {
+            "name": "flow_status",
+            "type": "string"
+          },
+          {
+            "name": "flow_used",
+            "type": "string"
+          },
+          {
+            "name": "conversion_factor",
+            "type": "string"
+          },
+          {
+            "name": "method_elementary_flow_id",
+            "type": "string"
+          },
+          {
+            "name": "method_elementary_flow_name",
+            "type": "string"
+          },
+          {
+            "name": "method_compartment",
+            "type": "string"
+          },
+          {
+            "name": "method_subcompartment",
+            "type": "string"
+          },
+          {
+            "name": "method_unit",
+            "type": "string"
+          },
+          {
+            "name": "compartment_status",
+            "type": "string"
+          },
+          {
+            "name": "climate change: total (excl. biogenic CO2)|global warming potential (GWP100)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "climate change: fossil|global warming potential (GWP100)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "climate change: fossil emissions (excl. aircraft emissions)|global warming potential (GWP100)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "climate change: aircraft emissions|global warming potential (GWP100)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "climate change: direct land use change|global warming potential (GWP100)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "climate change: emissions from direct land use change|global warming potential (GWP100)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "climate change: removals from direct land use change|global warming potential (GWP100)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "climate change: biogenic (excl. CO2)|global warming potential (GWP100)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "climate change: total (excl. biogenic CO2, incl. SLCFs)|global warming potential (GWP100)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "climate change: fossil (excl. biogenic CO2, incl. SLCFs)|global warming potential (GWP100)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "climate change: direct land use change (incl. SLCFs)|global warming potential (GWP100)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "climate change: biogenic (excl. CO2, incl. SLCFs)|global warming potential (GWP100)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "climate change: total (excl. biogenic CO2)|global warming potential (GWP20)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "climate change: total (excl. biogenic CO2)|global warming potential (GWP500)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "climate change: total (excl. biogenic CO2)|global temperature change potential (GTP50)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "climate change: total (excl. biogenic CO2)|global temperature change potential (GTP100)",
+            "type": "number",
+            "separated": true
+          }
+        ]
+      }
+    },
+    {
+      "path": "ReCiPe 2016 v1.03, endpoint (E)_mapped_3.12.csv",
+      "profile": "tabular-data-resource",
+      "mediatype": "text/csv",
+      "separator": "|",
+      "schema": {
+        "fields": [
+          {
+            "name": "elementary_flow_id",
+            "type": "string"
+          },
+          {
+            "name": "elementary_flow_name",
+            "type": "string"
+          },
+          {
+            "name": "cas_number",
+            "type": "string"
+          },
+          {
+            "name": "formula",
+            "type": "string"
+          },
+          {
+            "name": "synonyms",
+            "type": "string"
+          },
+          {
+            "name": "compartment",
+            "type": "string"
+          },
+          {
+            "name": "subcompartment",
+            "type": "string"
+          },
+          {
+            "name": "unit_name",
+            "type": "string"
+          },
+          {
+            "name": "flow_status",
+            "type": "string"
+          },
+          {
+            "name": "flow_used",
+            "type": "string"
+          },
+          {
+            "name": "conversion_factor",
+            "type": "string"
+          },
+          {
+            "name": "method_elementary_flow_id",
+            "type": "string"
+          },
+          {
+            "name": "method_elementary_flow_name",
+            "type": "string"
+          },
+          {
+            "name": "method_compartment",
+            "type": "string"
+          },
+          {
+            "name": "method_subcompartment",
+            "type": "string"
+          },
+          {
+            "name": "method_unit",
+            "type": "string"
+          },
+          {
+            "name": "compartment_status",
+            "type": "string"
+          },
+          {
+            "name": "total: ecosystem quality|ecosystem quality",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "total: human health|human health",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "total: natural resources|natural resources",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "human health|particulate matter formation",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "natural resources|energy resources: non-renewable, fossil",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "ecosystem quality|ecotoxicity: freshwater",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "ecosystem quality|eutrophication: freshwater",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "ecosystem quality|climate change: freshwater ecosystems",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "human health|climate change: human health",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "ecosystem quality|climate change: terrestrial ecosystems",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "human health|human toxicity: carcinogenic",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "human health|human toxicity: non-carcinogenic",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "human health|ionising radiation",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "ecosystem quality|land use",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "ecosystem quality|ecotoxicity: marine",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "ecosystem quality|eutrophication: marine",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "natural resources|material resources: metals/minerals",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "human health|photochemical oxidant formation: human health",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "ecosystem quality|photochemical oxidant formation: terrestrial ecosystems",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "human health|ozone depletion",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "ecosystem quality|acidification: terrestrial",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "ecosystem quality|ecotoxicity: terrestrial",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "ecosystem quality|water use: aquatic ecosystems",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "human health|water use: human health",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "ecosystem quality|water use: terrestrial ecosystems",
+            "type": "number",
+            "separated": true
+          }
+        ]
+      }
+    },
+    {
+      "path": "ReCiPe 2016 v1.03, endpoint (H)_mapped_3.12.csv",
+      "profile": "tabular-data-resource",
+      "mediatype": "text/csv",
+      "separator": "|",
+      "schema": {
+        "fields": [
+          {
+            "name": "elementary_flow_id",
+            "type": "string"
+          },
+          {
+            "name": "elementary_flow_name",
+            "type": "string"
+          },
+          {
+            "name": "cas_number",
+            "type": "string"
+          },
+          {
+            "name": "formula",
+            "type": "string"
+          },
+          {
+            "name": "synonyms",
+            "type": "string"
+          },
+          {
+            "name": "compartment",
+            "type": "string"
+          },
+          {
+            "name": "subcompartment",
+            "type": "string"
+          },
+          {
+            "name": "unit_name",
+            "type": "string"
+          },
+          {
+            "name": "flow_status",
+            "type": "string"
+          },
+          {
+            "name": "flow_used",
+            "type": "string"
+          },
+          {
+            "name": "conversion_factor",
+            "type": "string"
+          },
+          {
+            "name": "method_elementary_flow_id",
+            "type": "string"
+          },
+          {
+            "name": "method_elementary_flow_name",
+            "type": "string"
+          },
+          {
+            "name": "method_compartment",
+            "type": "string"
+          },
+          {
+            "name": "method_subcompartment",
+            "type": "string"
+          },
+          {
+            "name": "method_unit",
+            "type": "string"
+          },
+          {
+            "name": "compartment_status",
+            "type": "string"
+          },
+          {
+            "name": "total: ecosystem quality|ecosystem quality",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "total: human health|human health",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "total: natural resources|natural resources",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "human health|particulate matter formation",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "natural resources|energy resources: non-renewable, fossil",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "ecosystem quality|ecotoxicity: freshwater",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "ecosystem quality|eutrophication: freshwater",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "ecosystem quality|climate change: freshwater ecosystems",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "human health|climate change: human health",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "ecosystem quality|climate change: terrestrial ecosystems",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "human health|human toxicity: carcinogenic",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "human health|human toxicity: non-carcinogenic",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "human health|ionising radiation",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "ecosystem quality|land use",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "ecosystem quality|ecotoxicity: marine",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "ecosystem quality|eutrophication: marine",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "natural resources|material resources: metals/minerals",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "human health|photochemical oxidant formation: human health",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "ecosystem quality|photochemical oxidant formation: terrestrial ecosystems",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "human health|ozone depletion",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "ecosystem quality|acidification: terrestrial",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "ecosystem quality|ecotoxicity: terrestrial",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "ecosystem quality|water use: aquatic ecosystems",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "human health|water use: human health",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "ecosystem quality|water use: terrestrial ecosystems",
+            "type": "number",
+            "separated": true
+          }
+        ]
+      }
+    },
+    {
+      "path": "ReCiPe 2016 v1.03, endpoint (I)_mapped_3.12.csv",
+      "profile": "tabular-data-resource",
+      "mediatype": "text/csv",
+      "separator": "|",
+      "schema": {
+        "fields": [
+          {
+            "name": "elementary_flow_id",
+            "type": "string"
+          },
+          {
+            "name": "elementary_flow_name",
+            "type": "string"
+          },
+          {
+            "name": "cas_number",
+            "type": "string"
+          },
+          {
+            "name": "formula",
+            "type": "string"
+          },
+          {
+            "name": "synonyms",
+            "type": "string"
+          },
+          {
+            "name": "compartment",
+            "type": "string"
+          },
+          {
+            "name": "subcompartment",
+            "type": "string"
+          },
+          {
+            "name": "unit_name",
+            "type": "string"
+          },
+          {
+            "name": "flow_status",
+            "type": "string"
+          },
+          {
+            "name": "flow_used",
+            "type": "string"
+          },
+          {
+            "name": "conversion_factor",
+            "type": "string"
+          },
+          {
+            "name": "method_elementary_flow_id",
+            "type": "string"
+          },
+          {
+            "name": "method_elementary_flow_name",
+            "type": "string"
+          },
+          {
+            "name": "method_compartment",
+            "type": "string"
+          },
+          {
+            "name": "method_subcompartment",
+            "type": "string"
+          },
+          {
+            "name": "method_unit",
+            "type": "string"
+          },
+          {
+            "name": "compartment_status",
+            "type": "string"
+          },
+          {
+            "name": "total: ecosystem quality|ecosystem quality",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "total: human health|human health",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "total: natural resources|natural resources",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "human health|particulate matter formation",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "natural resources|energy resources: non-renewable, fossil",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "ecosystem quality|ecotoxicity: freshwater",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "ecosystem quality|eutrophication: freshwater",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "ecosystem quality|climate change: freshwater ecosystems",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "human health|climate change: human health",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "ecosystem quality|climate change: terrestrial ecosystems",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "human health|human toxicity: carcinogenic",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "human health|human toxicity: non-carcinogenic",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "human health|ionising radiation",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "ecosystem quality|land use",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "ecosystem quality|ecotoxicity: marine",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "ecosystem quality|eutrophication: marine",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "natural resources|material resources: metals/minerals",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "human health|photochemical oxidant formation: human health",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "ecosystem quality|photochemical oxidant formation: terrestrial ecosystems",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "human health|ozone depletion",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "ecosystem quality|acidification: terrestrial",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "ecosystem quality|ecotoxicity: terrestrial",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "ecosystem quality|water use: aquatic ecosystems",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "human health|water use: human health",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "ecosystem quality|water use: terrestrial ecosystems",
+            "type": "number",
+            "separated": true
+          }
+        ]
+      }
+    },
+    {
+      "path": "ReCiPe 2016 v1.03, midpoint (E)_mapped_3.12.csv",
+      "profile": "tabular-data-resource",
+      "mediatype": "text/csv",
+      "separator": "|",
+      "schema": {
+        "fields": [
+          {
+            "name": "elementary_flow_id",
+            "type": "string"
+          },
+          {
+            "name": "elementary_flow_name",
+            "type": "string"
+          },
+          {
+            "name": "cas_number",
+            "type": "string"
+          },
+          {
+            "name": "formula",
+            "type": "string"
+          },
+          {
+            "name": "synonyms",
+            "type": "string"
+          },
+          {
+            "name": "compartment",
+            "type": "string"
+          },
+          {
+            "name": "subcompartment",
+            "type": "string"
+          },
+          {
+            "name": "unit_name",
+            "type": "string"
+          },
+          {
+            "name": "flow_status",
+            "type": "string"
+          },
+          {
+            "name": "flow_used",
+            "type": "string"
+          },
+          {
+            "name": "conversion_factor",
+            "type": "string"
+          },
+          {
+            "name": "method_elementary_flow_id",
+            "type": "string"
+          },
+          {
+            "name": "method_elementary_flow_name",
+            "type": "string"
+          },
+          {
+            "name": "method_compartment",
+            "type": "string"
+          },
+          {
+            "name": "method_subcompartment",
+            "type": "string"
+          },
+          {
+            "name": "method_unit",
+            "type": "string"
+          },
+          {
+            "name": "compartment_status",
+            "type": "string"
+          },
+          {
+            "name": "particulate matter formation|particulate matter formation potential (PMFP)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "energy resources: non-renewable, fossil|fossil fuel potential (FFP)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "ecotoxicity: freshwater|freshwater ecotoxicity potential (FETP)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "eutrophication: freshwater|freshwater eutrophication potential (FEP)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "climate change|global warming potential (GWP1000)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "human toxicity: carcinogenic|human toxicity potential (HTPc)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "human toxicity: non-carcinogenic|human toxicity potential (HTPnc)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "ionising radiation|ionising radiation potential (IRP)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "land use|agricultural land occupation (LOP)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "ecotoxicity: marine|marine ecotoxicity potential (METP)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "eutrophication: marine|marine eutrophication potential (MEP)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "material resources: metals/minerals|surplus ore potential (SOP)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "photochemical oxidant formation: human health|photochemical oxidant formation potential: humans (HOFP)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "photochemical oxidant formation: terrestrial ecosystems|photochemical oxidant formation potential: ecosystems (EOFP)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "ozone depletion|ozone depletion potential (ODPinfinite)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "acidification: terrestrial|terrestrial acidification potential (TAP)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "ecotoxicity: terrestrial|terrestrial ecotoxicity potential (TETP)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "water use|water consumption potential (WCP)",
+            "type": "number",
+            "separated": true
+          }
+        ]
+      }
+    },
+    {
+      "path": "ReCiPe 2016 v1.03, midpoint (H)_mapped_3.12.csv",
+      "profile": "tabular-data-resource",
+      "mediatype": "text/csv",
+      "separator": "|",
+      "schema": {
+        "fields": [
+          {
+            "name": "elementary_flow_id",
+            "type": "string"
+          },
+          {
+            "name": "elementary_flow_name",
+            "type": "string"
+          },
+          {
+            "name": "cas_number",
+            "type": "string"
+          },
+          {
+            "name": "formula",
+            "type": "string"
+          },
+          {
+            "name": "synonyms",
+            "type": "string"
+          },
+          {
+            "name": "compartment",
+            "type": "string"
+          },
+          {
+            "name": "subcompartment",
+            "type": "string"
+          },
+          {
+            "name": "unit_name",
+            "type": "string"
+          },
+          {
+            "name": "flow_status",
+            "type": "string"
+          },
+          {
+            "name": "flow_used",
+            "type": "string"
+          },
+          {
+            "name": "conversion_factor",
+            "type": "string"
+          },
+          {
+            "name": "method_elementary_flow_id",
+            "type": "string"
+          },
+          {
+            "name": "method_elementary_flow_name",
+            "type": "string"
+          },
+          {
+            "name": "method_compartment",
+            "type": "string"
+          },
+          {
+            "name": "method_subcompartment",
+            "type": "string"
+          },
+          {
+            "name": "method_unit",
+            "type": "string"
+          },
+          {
+            "name": "compartment_status",
+            "type": "string"
+          },
+          {
+            "name": "particulate matter formation|particulate matter formation potential (PMFP)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "energy resources: non-renewable, fossil|fossil fuel potential (FFP)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "ecotoxicity: freshwater|freshwater ecotoxicity potential (FETP)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "eutrophication: freshwater|freshwater eutrophication potential (FEP)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "climate change|global warming potential (GWP100)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "human toxicity: carcinogenic|human toxicity potential (HTPc)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "human toxicity: non-carcinogenic|human toxicity potential (HTPnc)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "ionising radiation|ionising radiation potential (IRP)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "land use|agricultural land occupation (LOP)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "ecotoxicity: marine|marine ecotoxicity potential (METP)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "eutrophication: marine|marine eutrophication potential (MEP)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "material resources: metals/minerals|surplus ore potential (SOP)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "photochemical oxidant formation: human health|photochemical oxidant formation potential: humans (HOFP)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "photochemical oxidant formation: terrestrial ecosystems|photochemical oxidant formation potential: ecosystems (EOFP)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "ozone depletion|ozone depletion potential (ODPinfinite)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "acidification: terrestrial|terrestrial acidification potential (TAP)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "ecotoxicity: terrestrial|terrestrial ecotoxicity potential (TETP)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "water use|water consumption potential (WCP)",
+            "type": "number",
+            "separated": true
+          }
+        ]
+      }
+    },
+    {
+      "path": "ReCiPe 2016 v1.03, midpoint (I)_mapped_3.12.csv",
+      "profile": "tabular-data-resource",
+      "mediatype": "text/csv",
+      "separator": "|",
+      "schema": {
+        "fields": [
+          {
+            "name": "elementary_flow_id",
+            "type": "string"
+          },
+          {
+            "name": "elementary_flow_name",
+            "type": "string"
+          },
+          {
+            "name": "cas_number",
+            "type": "string"
+          },
+          {
+            "name": "formula",
+            "type": "string"
+          },
+          {
+            "name": "synonyms",
+            "type": "string"
+          },
+          {
+            "name": "compartment",
+            "type": "string"
+          },
+          {
+            "name": "subcompartment",
+            "type": "string"
+          },
+          {
+            "name": "unit_name",
+            "type": "string"
+          },
+          {
+            "name": "flow_status",
+            "type": "string"
+          },
+          {
+            "name": "flow_used",
+            "type": "string"
+          },
+          {
+            "name": "conversion_factor",
+            "type": "string"
+          },
+          {
+            "name": "method_elementary_flow_id",
+            "type": "string"
+          },
+          {
+            "name": "method_elementary_flow_name",
+            "type": "string"
+          },
+          {
+            "name": "method_compartment",
+            "type": "string"
+          },
+          {
+            "name": "method_subcompartment",
+            "type": "string"
+          },
+          {
+            "name": "method_unit",
+            "type": "string"
+          },
+          {
+            "name": "compartment_status",
+            "type": "string"
+          },
+          {
+            "name": "particulate matter formation|particulate matter formation potential (PMFP)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "energy resources: non-renewable, fossil|fossil fuel potential (FFP)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "ecotoxicity: freshwater|freshwater ecotoxicity potential (FETP)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "eutrophication: freshwater|freshwater eutrophication potential (FEP)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "climate change|global warming potential (GWP20)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "human toxicity: carcinogenic|human toxicity potential (HTPc)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "human toxicity: non-carcinogenic|human toxicity potential (HTPnc)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "ionising radiation|ionising radiation potential (IRP)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "land use|agricultural land occupation (LOP)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "ecotoxicity: marine|marine ecotoxicity potential (METP)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "eutrophication: marine|marine eutrophication potential (MEP)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "material resources: metals/minerals|surplus ore potential (SOP)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "photochemical oxidant formation: human health|photochemical oxidant formation potential: humans (HOFP)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "photochemical oxidant formation: terrestrial ecosystems|photochemical oxidant formation potential: ecosystems (EOFP)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "ozone depletion|ozone depletion potential (ODPinfinite)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "acidification: terrestrial|terrestrial acidification potential (TAP)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "ecotoxicity: terrestrial|terrestrial ecotoxicity potential (TETP)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "water use|water consumption potential (WCP)",
+            "type": "number",
+            "separated": true
+          }
+        ]
+      }
+    },
+    {
+      "path": "TRACI v2.1_mapped_3.12.csv",
+      "profile": "tabular-data-resource",
+      "mediatype": "text/csv",
+      "separator": "|",
+      "schema": {
+        "fields": [
+          {
+            "name": "elementary_flow_id",
+            "type": "string"
+          },
+          {
+            "name": "elementary_flow_name",
+            "type": "string"
+          },
+          {
+            "name": "cas_number",
+            "type": "string"
+          },
+          {
+            "name": "formula",
+            "type": "string"
+          },
+          {
+            "name": "synonyms",
+            "type": "string"
+          },
+          {
+            "name": "compartment",
+            "type": "string"
+          },
+          {
+            "name": "subcompartment",
+            "type": "string"
+          },
+          {
+            "name": "unit_name",
+            "type": "string"
+          },
+          {
+            "name": "flow_status",
+            "type": "string"
+          },
+          {
+            "name": "flow_used",
+            "type": "string"
+          },
+          {
+            "name": "conversion_factor",
+            "type": "string"
+          },
+          {
+            "name": "method_elementary_flow_id",
+            "type": "string"
+          },
+          {
+            "name": "method_elementary_flow_name",
+            "type": "string"
+          },
+          {
+            "name": "method_compartment",
+            "type": "string"
+          },
+          {
+            "name": "method_subcompartment",
+            "type": "string"
+          },
+          {
+            "name": "method_unit",
+            "type": "string"
+          },
+          {
+            "name": "compartment_status",
+            "type": "string"
+          },
+          {
+            "name": "climate change|global warming potential (GWP100)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "acidification|acidification potential (AP)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "particulate matter formation|particulate matter formation potential (PMFP)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "ozone depletion|ozone depletion potential (ODP)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "photochemical oxidant formation|maximum incremental reactivity (MIR)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "eutrophication|eutrophication potential",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "ecotoxicity: freshwater|ecotoxicity: freshwater",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "human toxicity: carcinogenic|human toxicity: carcinogenic",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "human toxicity: non-carcinogenic|human toxicity: non-carcinogenic",
+            "type": "number",
+            "separated": true
+          }
+        ]
+      }
+    },
+    {
+      "path": "USEtox v2.13, endpoint_mapped_3.12.csv",
+      "profile": "tabular-data-resource",
+      "mediatype": "text/csv",
+      "separator": "|",
+      "schema": {
+        "fields": [
+          {
+            "name": "elementary_flow_id",
+            "type": "string"
+          },
+          {
+            "name": "elementary_flow_name",
+            "type": "string"
+          },
+          {
+            "name": "cas_number",
+            "type": "string"
+          },
+          {
+            "name": "formula",
+            "type": "string"
+          },
+          {
+            "name": "synonyms",
+            "type": "string"
+          },
+          {
+            "name": "compartment",
+            "type": "string"
+          },
+          {
+            "name": "subcompartment",
+            "type": "string"
+          },
+          {
+            "name": "unit_name",
+            "type": "string"
+          },
+          {
+            "name": "flow_status",
+            "type": "string"
+          },
+          {
+            "name": "flow_used",
+            "type": "string"
+          },
+          {
+            "name": "conversion_factor",
+            "type": "string"
+          },
+          {
+            "name": "method_elementary_flow_id",
+            "type": "string"
+          },
+          {
+            "name": "method_elementary_flow_name",
+            "type": "string"
+          },
+          {
+            "name": "method_compartment",
+            "type": "string"
+          },
+          {
+            "name": "method_subcompartment",
+            "type": "string"
+          },
+          {
+            "name": "method_unit",
+            "type": "string"
+          },
+          {
+            "name": "compartment_status",
+            "type": "string"
+          },
+          {
+            "name": "human health|human toxicity: carcinogenic",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "human health|human toxicity: non-carcinogenic",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "ecosystem quality|ecotoxicity: freshwater",
+            "type": "number",
+            "separated": true
+          }
+        ]
+      }
+    },
+    {
+      "path": "USEtox v2.13, midpoint_mapped_3.12.csv",
+      "profile": "tabular-data-resource",
+      "mediatype": "text/csv",
+      "separator": "|",
+      "schema": {
+        "fields": [
+          {
+            "name": "elementary_flow_id",
+            "type": "string"
+          },
+          {
+            "name": "elementary_flow_name",
+            "type": "string"
+          },
+          {
+            "name": "cas_number",
+            "type": "string"
+          },
+          {
+            "name": "formula",
+            "type": "string"
+          },
+          {
+            "name": "synonyms",
+            "type": "string"
+          },
+          {
+            "name": "compartment",
+            "type": "string"
+          },
+          {
+            "name": "subcompartment",
+            "type": "string"
+          },
+          {
+            "name": "unit_name",
+            "type": "string"
+          },
+          {
+            "name": "flow_status",
+            "type": "string"
+          },
+          {
+            "name": "flow_used",
+            "type": "string"
+          },
+          {
+            "name": "conversion_factor",
+            "type": "string"
+          },
+          {
+            "name": "method_elementary_flow_id",
+            "type": "string"
+          },
+          {
+            "name": "method_elementary_flow_name",
+            "type": "string"
+          },
+          {
+            "name": "method_compartment",
+            "type": "string"
+          },
+          {
+            "name": "method_subcompartment",
+            "type": "string"
+          },
+          {
+            "name": "method_unit",
+            "type": "string"
+          },
+          {
+            "name": "compartment_status",
+            "type": "string"
+          },
+          {
+            "name": "human toxicity: carcinogenic|comparative toxic unit for human (CTUh)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "human toxicity: non-carcinogenic|comparative toxic unit for human (CTUh)",
+            "type": "number",
+            "separated": true
+          },
+          {
+            "name": "ecotoxicity: freshwater|comparative toxic unit for ecosystems (CTUe)",
+            "type": "number",
+            "separated": true
+          }
+        ]
+      }
+    }
+  ],
+  "created": "2025-10-20T15:27:38.441072Z"
+}
