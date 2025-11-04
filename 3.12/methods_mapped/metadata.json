@@ -2,7 +2,7 @@
   "profile": "tabular-data-package",
   "name": "ecoinvent-lcia-methods-mapped-v3.12",
   "description": "Mappings of ecoinvent elementary exchanges to LCIA methods' elementary exchanges and corresponding characterization factors (CFs) for ecoinvent version 3.12. These files show the result of the mapping procedure applied by ecoinvent, which includes some implementation choices documented in the publicly available ecoinvent LCIA implementation report.",
-  "id": "69ab9e513cfd4ec28df2279e2e980d05",
+  "id": "4f0d1ef4ecb8450ba6abd2cefc146a48",
   "licenses": [
     {
       "name": "CC_BY-NC-3.0",
@@ -3250,5 +3250,5 @@
       }
     }
   ],
-  "created": "2025-11-04T18:48:42.863526Z"
+  "created": "2025-11-04T18:52:08.701720Z"
 }
