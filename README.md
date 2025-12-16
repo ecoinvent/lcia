@@ -9,7 +9,7 @@ Automated mapping tries to map several fields and for v3.10 (and onwards) the ty
 |---		|---|
 |name		|mapped on name|
 |stripped	|mapped on name with special characters stripped from it|
-|synonym	|mappied on a synonym|
+|synonym	|mapped on a synonym|
 |syn_strip	|mapped on a synonms with special characters stripped from it|
 |CAS		|mapped based on CAS number|
 |formula	|mapped based on formula|
