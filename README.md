@@ -19,8 +19,9 @@ Manual mappings are indicated by the status "mapped: overwrite".
 NOTE: Some methods were available with ecoinvent elementary flow UUIDs and names and therefore needed no mapping. These are therefore not part of this repository.
 
 ## Note for v3.12
-Propyl propionate was assigned a wrong CAS number and formula, which led to a mis-mapping (to ethyl methyl carbonate) in EF methods (EF v3.0, EF v3.1, EN15804). There is no CF available in these methods for propyl propionate.
-In the original ReCiPe data, Caesium has a wrong formula (Ce instead of Cs), which lead to a mis-mapping to Cerium (Ce). There is no CF available in ReCiPe for Cerium.
+Propyl propionate was assigned a wrong CAS number and formula, which led to a mis-mapping (to ethyl methyl carbonate) in EF methods (EF v3.0, EF v3.1, EN15804). There is no CF available in these methods for propyl propionate. (Thanks go to Clara Johne from PRé)
+
+In the original ReCiPe data, Caesium has a wrong formula (Ce instead of Cs), which lead to a mis-mapping to Cerium (Ce). There is no CF available in ReCiPe for Cerium. (Thanks go to [Felipe Chichorro](https://github.com/fchichorro))
 
 **Files in the [3.12/methods_mapped_corrected](3.12/methods_mapped_corrected) are updated accordingly.**
 
