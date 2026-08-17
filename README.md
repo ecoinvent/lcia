@@ -34,7 +34,7 @@ The mappings to EF methods consider the [GLAD mapping](https://github.com/UNEP-E
 For EN15804 in versions 3.11+, impact categories and indicators as in the EF methods were rearranged with new method and impact category names to better align with the standard and help users find what they are looking for. For the files available in the [v3.12 folder](https://github.com/ecoinvent/lcia/tree/master/3.12/methods_mapped) this means that "EN15804+A2 - Core impact categories and indicators_mapped_3.12.csv" and "EN15804+A2 - Additional impact categories and indicators_mapped_3.12.csv" are based on "EF v3.0 EN15804_mapped_3.12.csv" and "EF v3.1 EN15804_mapped_3.12.csv". Because of the rearrangement, method elementary flow ids and mapping status information are only available in the latter files.
 
 ## Metadata JSON file
-The ```metadata.json``` file available for each version follows the [tabular-data-package](https://dataprotocols.org/tabular-data-package/) standard.
+The ```metadata.json``` file available for each version follows the [tabular-data-package](https://specs.frictionlessdata.io/tabular-data-package/) standard.
 ## Author and contact
 This repository and the files in it were created by the ecoinvent Association. Feel free to reach out to sonderegger@ecoinvent.org.
 ## License
