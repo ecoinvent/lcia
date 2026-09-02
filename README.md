@@ -36,6 +36,8 @@ In the first three methods, Spodumene is not yet characterized, in ReCiPe 2016 i
 ## Note for previous versions
 See LCIA Issues section at the bottom of [release pages](https://support.ecoinvent.org/ecoinvent-version-3.11) in our knowledge base.
 
+The Spodumene issue described above for v3.12 existed in previous versions as well.
+
 ## Note for EF methods (including EN 15804)
 The mappings to EF methods consider the [GLAD mapping](https://github.com/UNEP-Economy-Division/GLAD-ElementaryFlowResources/blob/master/Mapping/Output/Mapped_files/ecoinventEFv3.7-ILCD-EFv3.0.xlsx). While v3.9.1 implementations started from there, v3.10 (and onwards) implementations start not from the full list of elementary flows, but only from the list of characterized flows (the “lciamethods_CF” sheet of the [official Excel files](https://eplca.jrc.ec.europa.eu/permalink/EF3_1/EF-LCIAMethod_CF(EF-v3.1).xlsx)). This ensures that what is mapped also is characterized, but it also means that mappings can be different than in the GLAD mapping as the best matching flow might not be available anymore.
 
