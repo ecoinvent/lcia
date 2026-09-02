@@ -25,6 +25,14 @@ In the original ReCiPe data, Caesium has a wrong formula (Ce instead of Cs), whi
 
 **Files in the [3.12/methods_mapped_corrected](3.12/methods_mapped_corrected) are updated accordingly.**
 
+Spodumene (LiAl(SiO3)2 has a Lithium content of 0.0376. This value can be used as a conversion factor when applying the CF of Lithium to Spodumene in the following methods:
+- CML v4.8 2016
+- Ecological Scarcity 2021
+- EPS 2020d
+- ReCiPe 2016.
+
+In the first three methods, Spodumene is not yet characterized, in ReCiPe 2016 it was wrongly characterized with the CF for Lithium (and a conversion factor of 1). Files were not updated for this mistake.
+
 ## Note for previous versions
 See LCIA Issues section at the bottom of [release pages](https://support.ecoinvent.org/ecoinvent-version-3.11) in our knowledge base.
 
